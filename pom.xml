@@ -12,6 +12,7 @@
     <modules>
         <module>git-flow-core</module>
         <module>git-flow-main</module>
+        <module>git-flow-plugin</module>
     </modules>
 
     <scm>
