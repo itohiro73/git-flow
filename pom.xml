@@ -14,9 +14,9 @@
     </modules>
 
     <scm>
-        <connection>scm:git:git@github.com/itohiro73/git-flow</connection>
-        <url>scm:git:git@github.com/itohiro73/git-flow</url>
-        <developerConnection>scm:git:git@github.com/itohiro73/git-flow</developerConnection>
+        <connection>scm:git:git@github.com:itohiro73/git-flow.git</connection>
+        <url>scm:git:git@github.com:itohiro73/git-flow.git</url>
+        <developerConnection>scm:git:git@github.com:itohiro73/git-flow.git</developerConnection>
       <tag>0.0.1</tag>
   </scm>
 
