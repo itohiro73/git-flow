@@ -5,3 +5,9 @@ Use case: Make changes directly to remote master branch. Want to sync it to loca
 git fetch origin
 git reset --hard origin/master
 ```
+### Squash the commits
+
+```
+git rebase -i commit#
+```
+Then choose squash!
