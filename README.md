@@ -11,3 +11,9 @@ git reset --hard origin/master
 git rebase -i commit#
 ```
 Then choose squash!
+
+### Add remote URLs
+
+```
+git remote add some_name URL 
+```
