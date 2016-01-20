@@ -17,3 +17,13 @@ Then choose squash!
 ```
 git remote add some_name URL 
 ```
+
+### Catch-up with upatream
+
+```
+git fetch --all
+git checkout master
+git rebase upstream/master master
+git push -f origina master
+```
+
