@@ -27,3 +27,9 @@ git rebase upstream/master master
 git push -f origina master
 ```
 
+### List all authors in the repo
+
+```
+git log --all --format='%aN' | sort -u
+```
+
