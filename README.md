@@ -33,3 +33,9 @@ git push -f origina master
 git log --all --format='%aN' | sort -u
 ```
 
+### Checkout tag
+
+```
+git tag -l
+git checkout refs/tags/7.0.0
+```
