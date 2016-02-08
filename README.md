@@ -39,3 +39,9 @@ git log --all --format='%aN' | sort -u
 git tag -l
 git checkout refs/tags/7.0.0
 ```
+
+### Unstage an added file
+
+```
+git reset HEAD fileName
+```
