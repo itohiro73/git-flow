@@ -52,3 +52,13 @@ Reference: http://stackoverflow.com/questions/1274057/making-git-forget-about-a-
 ```
 git rm --cached <file>
 ```
+
+### Fixup
+
+```
+git commit --fixup=COMMIT_HASH
+```
+
+```
+git rebase -i --autosquash COMMIT_HASH_TO_REBASE
+```
