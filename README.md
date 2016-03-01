@@ -45,3 +45,10 @@ git checkout refs/tags/7.0.0
 ```
 git reset HEAD fileName
 ```
+
+### Untrack a file that was added one time but now ignored in .gitignore
+Reference: http://stackoverflow.com/questions/1274057/making-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
+
+```
+git rm --cached <file>
+```
