@@ -62,3 +62,9 @@ git commit --fixup=COMMIT_HASH
 ```
 git rebase -i --autosquash COMMIT_HASH_TO_REBASE
 ```
+
+### Show changed files only between 2 commits
+
+```
+git diff --name-only commit1 commit2
+```
