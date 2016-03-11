@@ -68,3 +68,9 @@ git rebase -i --autosquash COMMIT_HASH_TO_REBASE
 ```
 git diff --name-only commit1 commit2
 ```
+
+### 3 way rebase
+
+```
+git rebase --onto commit from_commit to_commit
+```
