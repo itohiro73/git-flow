@@ -80,3 +80,16 @@ git rebase --onto commit from_commit to_commit
 ```
 git remote add upstream UPATREAM_URL
 ```
+
+### Delete local branch and remote branch
+Delete local branch.
+```
+git branch -d branch_to_delete
+```
+
+Delete remote branch (local branch should have been removed as above).
+```
+git push origin :branch_to_delete
+```
+
+
