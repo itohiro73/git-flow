@@ -74,3 +74,9 @@ git diff --name-only commit1 commit2
 ```
 git rebase --onto commit from_commit to_commit
 ```
+
+### Add upstream URL
+
+```
+git remote add upstream UPATREAM_URL
+```
