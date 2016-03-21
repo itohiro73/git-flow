@@ -92,4 +92,8 @@ Delete remote branch (local branch should have been removed as above).
 git push origin :branch_to_delete
 ```
 
+### Add a tag
 
+```
+git tag TAG_NAME
+```
