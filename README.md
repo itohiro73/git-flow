@@ -97,3 +97,11 @@ git push origin :branch_to_delete
 ```
 git tag TAG_NAME
 ```
+
+### Cherry pick a commit
+
+```
+git checkout branch_name
+git cherry-pick commit_to_pick
+```
+
