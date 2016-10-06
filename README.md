@@ -98,6 +98,12 @@ git push origin :branch_to_delete
 git tag TAG_NAME
 ```
 
+### Add an annotated tag
+
+```
+git tag -am "Message" TAG_NAME
+```
+
 ### Cherry pick a commit
 
 ```
