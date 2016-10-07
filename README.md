@@ -104,6 +104,12 @@ git tag TAG_NAME
 git tag -am "Message" TAG_NAME
 ```
 
+### Push a tag to remote (e.g.upstream)
+
+```
+git push upstream TAG_NAME
+```
+
 ### Cherry pick a commit
 
 ```
