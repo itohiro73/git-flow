@@ -110,6 +110,12 @@ git tag -am "Message" TAG_NAME
 git push upstream TAG_NAME
 ```
 
+### Delete a tag
+
+```
+git tag -d TAG_NAME
+```
+
 ### Cherry pick a commit
 
 ```
