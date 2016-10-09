@@ -123,3 +123,33 @@ git checkout branch_name
 git cherry-pick commit_to_pick
 ```
 
+### Stash changes
+
+```
+git stash
+```
+
+### List stashed changes
+
+```
+git stash list
+```
+
+### Apply stashed changes without deleting
+
+```
+git stash apply
+```
+
+### Apply stashed changes and delete it
+
+```
+git stash pop
+```
+
+### Delete stashed changes
+
+```
+git stash drop
+```
+
