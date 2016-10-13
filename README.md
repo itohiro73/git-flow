@@ -153,3 +153,8 @@ git stash pop
 git stash drop
 ```
 
+### Pick particukar stash
+
+```
+git stash pop stash@{1}
+```
