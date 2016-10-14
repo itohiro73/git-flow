@@ -158,3 +158,9 @@ git stash drop
 ```
 git stash pop stash@{1}
 ```
+
+### Revert commit
+
+```
+git reset --soft HEAD
+```
