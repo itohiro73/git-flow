@@ -164,3 +164,10 @@ git stash pop stash@{1}
 ```
 git reset --soft HEAD
 ```
+
+### Rebase on top of upstream
+
+```
+git rebase upstream/master
+```
+
