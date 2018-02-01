@@ -171,3 +171,8 @@ git reset --soft HEAD
 git rebase upstream/master
 ```
 
+### Sign-off
+
+```
+git commit --signoff
+```
